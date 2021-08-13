@@ -38,6 +38,12 @@ class Tests {
         assertEquals(expected, day06().results())
     }
 
+    @Test
+    fun day07test() {
+        val expected = Pair(-1,-1)
+        assertEquals(expected, day07().results())
+    }
+
     //@Test
     fun dayXtest() {
         val expected = Pair(-1,-1)
